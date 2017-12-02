@@ -14,7 +14,7 @@ module.exports = appInfo => {
   };
 
   config.mongoose = {
-    url: 'mongodb://10.0.1.10/realtime',
+    url: 'mongodb://10.0.1.10/quantaxis',
     options: {}
   };
 

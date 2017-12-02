@@ -1,7 +1,7 @@
 // app/model/stock.js
 module.exports = app => {
   const mongoose = app.mongoose;
-  var Schema = mongoose.Schema;
+  let Schema = mongoose.Schema;
   const StockSchema = new mongoose.Schema({
     _id: Schema.ObjectId,
     active1: { type: Number },
@@ -38,8 +38,8 @@ module.exports = app => {
     price: { type: Number },
     vol: { type: Number },
     datetime: { type: Date },
-    market: { type: Number }
+    market: { type: Number },
   });
-  
+
   return mongoose.model('Stock', StockSchema, 'realtime');
 };
