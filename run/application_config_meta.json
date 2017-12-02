@@ -1,0 +1,261 @@
+{
+  "keys": "D:\\Code\\vision\\config\\config.default.js",
+  "middleware": "D:\\Code\\vision\\config\\config.default.js",
+  "sentry": {
+    "dsn": "D:\\Code\\vision\\config\\config.default.js"
+  },
+  "mongoose": {
+    "url": "D:\\Code\\vision\\config\\config.default.js",
+    "options": "D:\\Code\\vision\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\Code\\vision\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\Code\\vision\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Code\\vision\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Code\\vision\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\Code\\vision\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\Code\\vision\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Code\\vision\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Code\\vision\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\Code\\vision\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Code\\vision\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\Code\\vision\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Code\\vision\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Code\\vision\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Code\\vision\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Code\\vision\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\Code\\vision\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\Code\\vision\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\Code\\vision\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Code\\vision\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\Code\\vision\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Code\\vision\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Code\\vision\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Code\\vision\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Code\\vision\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Code\\vision\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\Code\\vision\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\Code\\vision\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Code\\vision\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\Code\\vision\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\Code\\vision\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-mongoose": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-sentry": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\Code\\vision\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "coreMiddleware": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "D:\\Code\\vision\\node_modules\\egg\\config\\config.default.js"
+  }
+}
