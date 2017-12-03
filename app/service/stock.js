@@ -14,12 +14,14 @@ class StockService extends Service {
 
   async changes(originalStocks) {
     const stocks = originalStocks.map(function(meta) {
-      const stock = { code: meta.doc.code,
-        chg: ((meta.doc.price / meta.doc.last_close - 1) * 100).toFixed(2) };
-      //   console.log(stock);
-      return stock;
+      const stock = Object.create(null);
+      if (meta.doc.price) {
+        stock.code = meta.doc.code;
+        stock.chg = ((meta.doc.price / meta.doc.last_close - 1) * 100).toFixed(2);
+        return stock;
+      }      
     });
-    return stocks;
+    return stocks.filter(n => n !== undefined);
   }
 }
 
