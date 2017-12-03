@@ -13,7 +13,7 @@
       "csrf": {
         "enable": true,
         "useSession": false,
-        "ignoreJSON": false,
+        "ignoreJSON": true,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -75,8 +75,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\Code\\vision\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\Code\\vision\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/solarhell/Desktop/work/vision/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/solarhell/Desktop/work/vision/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -107,21 +107,21 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\Code\\vision\\app\\public",
+      "dir": "/Users/solarhell/Desktop/work/vision/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\Code\\vision\\app\\view",
+      "root": "/Users/solarhell/Desktop/work/vision/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "mongoose": {
-      "url": "mongodb://10.0.1.10/quantaxis",
+      "url": "mongodb://218.81.117.167:47017/quantaxis",
       "options": {}
     },
     "env": "local",
@@ -138,18 +138,19 @@
       "private": true,
       "dependencies": {
         "egg": "^2.0.0",
+        "egg-cors": "^2.0.0",
         "egg-mongoose": "^2.1.1",
-        "egg-scripts": "^2.1.0",
+        "egg-scripts": "^2.4.0",
         "egg-sentry": "^1.0.0"
       },
       "devDependencies": {
         "autod": "^3.0.1",
         "autod-egg": "^1.0.0",
-        "egg-bin": "^4.3.5",
+        "egg-bin": "^4.3.6",
         "egg-ci": "^1.8.0",
-        "egg-mock": "^3.13.0",
-        "eslint": "^4.11.0",
-        "eslint-config-egg": "^5.1.0",
+        "egg-mock": "^3.13.1",
+        "eslint": "^4.12.1",
+        "eslint-config-egg": "^5.1.1",
         "webstorm-disable-index": "^1.2.0"
       },
       "engines": {
@@ -177,9 +178,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "D:\\Code\\vision",
-    "HOME": "C:\\Users\\dosko",
-    "rundir": "D:\\Code\\vision\\run",
+    "baseDir": "/Users/solarhell/Desktop/work/vision",
+    "HOME": "/Users/solarhell",
+    "rundir": "/Users/solarhell/Desktop/work/vision/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -209,7 +210,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\Code\\vision\\logs\\vision",
+      "dir": "/Users/solarhell/Desktop/work/vision/logs/vision",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -287,8 +288,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-session",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-session",
       "version": "3.0.0"
     },
     "security": {
@@ -300,8 +301,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-security",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -313,8 +314,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-jsonp",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -326,8 +327,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-onerror",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -337,8 +338,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-i18n",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -348,8 +349,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-watcher",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -359,8 +360,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-multipart",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -374,8 +375,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-development",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-development",
       "version": "2.0.0"
     },
     "schedule": {
@@ -385,8 +386,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-schedule",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-schedule",
       "version": "3.1.1"
     },
     "logrotator": {
@@ -398,8 +399,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-logrotator",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-logrotator",
       "version": "3.0.0"
     },
     "static": {
@@ -409,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-static",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-static",
       "version": "2.0.0"
     },
     "view": {
@@ -420,8 +421,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-view",
+      "from": "/Users/solarhell/Desktop/work/vision/node_modules/egg/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-view",
       "version": "2.0.0"
     },
     "mongoose": {
@@ -431,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Code\\vision\\config\\plugin.js",
-      "path": "D:\\Code\\vision\\node_modules\\egg-mongoose",
+      "from": "/Users/solarhell/Desktop/work/vision/config/plugin.js",
+      "path": "/Users/solarhell/Desktop/work/vision/node_modules/egg-mongoose",
       "version": "2.1.1"
     }
   }

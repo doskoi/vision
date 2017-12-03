@@ -1,7 +1,9 @@
+'use strict';
+
 // app/model/stock.js
 module.exports = app => {
   const mongoose = app.mongoose;
-  let Schema = mongoose.Schema;
+  const Schema = mongoose.Schema;
   const StockSchema = new mongoose.Schema({
     _id: Schema.ObjectId,
     active1: { type: Number },

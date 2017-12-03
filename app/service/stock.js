@@ -19,7 +19,7 @@ class StockService extends Service {
         stock.code = meta.doc.code;
         stock.chg = ((meta.doc.price / meta.doc.last_close - 1) * 100).toFixed(2);
         return stock;
-      }      
+      }
     });
     return stocks.filter(n => n !== undefined);
   }
