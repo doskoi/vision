@@ -5,20 +5,29 @@ const Controller = require('egg').Controller;
 
 class StockController extends Controller {
   async index() {
+    const result = await this.allStocks();
+    const changes = await this.changes(result);
+
+    this.ctx.body = changes;
+  }
+
+  async allStocks() {
     // const result = await this.ctx.model.Stock.find({'code': 300098}).sort({'datetime': -1});
-    const result = await this.ctx.model.Stock.aggregate([
-      { $sort: { datetime: -1 } },
-      { $group: { _id: '$code', doc: { $first: '$$ROOT' } } },
-    ]).allowDiskUse(true);
+    const stocks = await this.ctx.model.Stock.aggregate([
+        { $sort: { datetime: -1 } },
+        { $group: { _id: '$code', doc: { $first: '$$ROOT' } } },
+      ]).allowDiskUse(true);
+    return stocks;
+  }
 
-    let stocks = result.map(function(meta) {
-      let stock = {'code': meta.doc.code,
-                   'chg': (meta.doc.price / meta.doc.last_close - 1) * 100};
-    //   console.log(stock);
-      return stock;
-    });
-
-    this.ctx.body = stocks;
+  async changes(originalStocks) {
+    let stocks = originalStocks.map(function(meta) {
+        let stock = {'code': meta.doc.code,
+                     'chg': ((meta.doc.price / meta.doc.last_close - 1) * 100).toFixed(2)};
+      //   console.log(stock);
+        return stock;
+      });
+    return stocks;
   }
 }
 
