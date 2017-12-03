@@ -14,12 +14,12 @@ module.exports = appInfo => {
   };
 
   config.mongoose = {
-    url: 'mongodb://218.81.117.167:47017/quantaxis',
+    url: 'mongodb://10.0.1.10:27017/quantaxis',
     options: {},
   };
 
   config.security = {
-    domainWhiteList: [ 'http://localhost:8080' ],
+    domainWhiteList: [ 'http://127.0.0.1:8080' ],
     csrf: {
       ignoreJSON: true,
     },

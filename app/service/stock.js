@@ -23,6 +23,30 @@ class StockService extends Service {
     });
     return stocks.filter(n => n !== undefined);
   }
+
+  async glance(originalStocks) {
+    const changes = await this.changes(originalStocks);
+    console.log(changes);
+    const statistics = Object.create(null);
+    for (const val of changes) {
+      const chg = val.chg.split('.')[0];
+      if (statistics[chg]) {
+        statistics[chg] += 1;
+      } else {
+        statistics[chg] = 1;
+      }
+    }
+    var glances = new Array();
+    for (let k in statistics) {
+      const glance = Object.create(null);
+      glance.chg = k;
+      glance.num = statistics[k];
+      glances.push(glance);
+    }
+    return glances.sort(function(a, b) {
+      return b.chg - a.chg;
+    });
+  }
 }
 
 module.exports = StockService;

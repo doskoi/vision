@@ -11,6 +11,12 @@ class StockController extends Controller {
     this.ctx.body = changes;
   }
 
+  async glance() {
+    const result = await this.service.stock.allStocks();
+    const glance = await this.service.stock.glance(result);
+
+    this.ctx.body = glance;
+  }
 
 }
 
