@@ -26,18 +26,18 @@ class StockService extends Service {
 
   async glance(originalStocks) {
     const changes = await this.changes(originalStocks);
-    console.log(changes);
+    // console.log(changes);
     const statistics = Object.create(null);
     for (const val of changes) {
-      const chg = val.chg.split('.')[0];
+      const chg = (val.chg.split('.')[0] !== '-0') ? val.chg.split('.')[0] : '0';
       if (statistics[chg]) {
         statistics[chg] += 1;
       } else {
         statistics[chg] = 1;
       }
     }
-    var glances = new Array();
-    for (let k in statistics) {
+    let glances = new Array();
+    for (const k in statistics) {
       const glance = Object.create(null);
       glance.chg = k;
       glance.num = statistics[k];
