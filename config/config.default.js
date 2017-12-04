@@ -14,7 +14,7 @@ module.exports = appInfo => {
   };
 
   config.mongoose = {
-    url: 'mongodb://10.0.1.10:27017/quantaxis',
+    url: 'mongodb://127.0.0.1:27017/quantaxis',
     options: {},
   };
 
