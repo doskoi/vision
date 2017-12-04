@@ -39,7 +39,7 @@ module.exports = app => {
     open: { type: Number },
     price: { type: Number },
     vol: { type: Number },
-    datetime: { type: Date },
+    datetime: { type: Number },
     market: { type: Number },
   });
 
